@@ -16,11 +16,19 @@
     }
 
     img {
-        max-width: 35%;   /* limits image width to 50% of viewport */
-        height: auto;     /* maintains aspect ratio */
-        border-radius: 10px; 
+        max-width: 35%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Media query for mobile */
+    @media (max-width: 600px) {
+        img {
+            max-width: 80%; /* enlarge image on mobile */
+        }
     }
 </style>
+
 
 </head>
 <body>
